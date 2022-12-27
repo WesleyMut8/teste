@@ -1,0 +1,83 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url('darkgalaxy.gif'); 
+    background-repeat: repeat; 
+    background-color: #000;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.title-top{
+    margin-top: 2rem;
+}
+
+h6{
+    display: block;
+    font-weight: 100;
+    width: 100%;
+    font-size: 1rem;
+    text-align: right;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.ps-text{
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.calendar-box{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.calendar-box img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-to-start{
+    margin-top: 1rem;
+}
+
+.call-to-start{
+    display: flex;
+    height: 100%;
+    margin-top: 3.5rem;
+    border: 5px #fff solid;
+    padding: 25px 15px;
+    border-radius: 15px;
+}
+
+.call-to-start a{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 600;
+}

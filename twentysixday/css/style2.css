@@ -1,0 +1,93 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Montserrat;
+}
+
+body{
+    background-image: url('darkgalaxy.gif'); 
+    background-repeat: repeat; 
+    background-color: #000;
+    color: #fff;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.back-icon{
+    display: block;
+    margin-top: 1.5rem;
+    justify-content: left !important;
+}
+
+.back-icon img{
+    width: 60px;
+}
+
+.first-text{
+    margin-top: 1rem;
+}
+
+.first-text p{
+    margin-top: 1rem;
+}
+
+.first-image{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.first-image img{
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.first-image p{
+    margin: 0 auto;
+    text-align: justify;
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+p{
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+p:last-child{
+    margin-bottom: 1rem;
+}
+
+.mencao-mc{
+    display: flex;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.line{
+    margin-top: 1px;
+    display: flex;
+    width: 100%;
+    border: 1px solid #fff;
+    margin-bottom: 2rem;
+}
+
+
+
+.second-part img{
+    display: flex;
+    padding: 1rem 0;
+    margin: 0 auto;
+    border-radius: 20px;
+}
